@@ -1,6 +1,13 @@
 #!/bin/bash
 #Ask the github username
-read -p 'Please enter your name: ' username
+while true;do
+        read -p 'Please enter your name: ' username
+        if [[ -z "$username" ]];then
+                echo "Please enter your name!"
+        else
+                break
+        fi
+done
 #Create the main directory
 main_dir=submission_reminder_$username
 mkdir -p $main_dir

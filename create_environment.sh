@@ -53,19 +53,19 @@ EOF
 cat << 'EOF' > $main_dir/assets/submissions.txt
 student, assignment, submission status
 Chinemerem, Shell Navigation, not submitted
-Chiagoziem, Git, submitted
+Chiagoziem, shell navigation, submitted
 Divine, Shell Navigation, not submitted
-Anissa, Shell Basics, submitted
-Alice, Math Homework, submitted
-Bob, Science Project, not submitted
-Charlie, History Essay, submitted
-David, Programming Lab, not submitted
-Eve, Physics Report, not submitted
-Frank, Chemistry Assignment, submitted
-Grace, Biology Worksheet, not submitted
-Heidi, English Presentation, submitted
-Ivan, Geography Case Study, not submitted
-Judy, Statistics Quiz, submitted
+Anissa, Shell navigation, submitted
+Gakwaya, shell navigation, submitted
+Desire, shell navigation, not submitted
+Kevine, shell navigation, submitted
+Davina, shell navigation, not submitted
+Elie, shell navigation, not submitted
+Franky, shell navigation, submitted
+Kagaba, shell navigation, not submitted
+Idrissa, shell navigation, submitted
+yvanna, shell navigation, not submitted
+Jullian, Shell navigation, submitted
 EOF
 cat << 'EOF' > $main_dir/config/config.env
 
